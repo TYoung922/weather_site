@@ -50,6 +50,7 @@ hr {
   padding: 2em;
   background: #cecece;
   max-width: 100%;
+  flex-shrink: 1;
 }
 .archive {
   display: grid;
@@ -118,10 +119,12 @@ hr {
 .flex {
   display: flex;
   justify-content: center;
+  /* flex-shrink: 1; */
 }
 .flex-col {
   text-align: center;
   margin-right: 50px;
+  /* flex-shrink: 1; */
 }
 #stats {
   text-align: start;
@@ -130,6 +133,7 @@ hr {
 .temp-data {
   margin-left: 10px;
   display: flex;
+  /* flex-shrink: 1; */
 }
 .weatherIcon {
   display: flex;
@@ -138,3 +142,7 @@ hr {
 footer {
   text-align: center;
 }
+
+/* img {
+  flex-shrink: 2;
+} */
