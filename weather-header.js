@@ -15,7 +15,7 @@ fetch(url)
     current_temp.innerHTML = jsObject.main.temp;
 
     let curent_desc = document.getElementById("current-desc");
-    curent_desc.innerHTML = jsObject.weather.description;
+    curent_desc.innerHTML = jsObject.weather[0].description;
 
     let current_windChill = document.getElementById("current-windChill");
     current_windChill.innerHTML = jsObject.main.feels_like;
