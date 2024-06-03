@@ -27,9 +27,18 @@ fetch(url)
 
       let title = document.querySelector(`#article-link-${num}`);
       title.textContent = news[i].title;
+      title.setAttribute("href", news[i].url);
+      let name = document.querySelector(`#title-${num}`);
+      name.appendChild(title);
 
-      //   let desc = document.querySelector(`#article-desc-${num}`);
-      //   desc.textContent = news[i].description;
+      let stuff = document.querySelector(`.stuff-${num}`);
+      let desc = document.querySelector(`#article-desc-${num}`);
+      desc.textContent = news[i].description;
+      stuff.appendChild(desc);
+
+      //   story.appendChild(desc);
+
+      //   let archive = document.querySelector(".archive");
       //   document.article.append(desc);
       //   let title = document.querySelector(`article-link-${num}`);
       //   title.textContent = news[i].title;
