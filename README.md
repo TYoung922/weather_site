@@ -7,3 +7,7 @@ style is the branch with the updated styles for the site.
 api - branch - this one is for working on the api integration of the webpage.
 
 news - branch - this one is for working on the news page.
+
+the news api wants a upgraded plan for it to work but here is the link to the github page
+
+https://tyoung922.github.io/weather_site/news.html
